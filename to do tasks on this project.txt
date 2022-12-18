@@ -1,0 +1,25 @@
+"""trying to understand the basic working of a slot machine and the
+first concept that has sunk is that it uses a random number generator to produce some output
+then compares input with what the user had predicted to produce the result if the user has won or lost
+it the multiplies the win  with the bet amount to show the winnings of the user.
+yesterday just learnt to avoid predictability the code can run the random generator function over 100 times 
+awarding each set some points to ensure its not so predictable and finally produce output"""
+"""the code has three modules -first there is the   MONEY MANAGEMENT MODULE that ensures  the user balance is stakable,
+                            subtracted after a loss and added after a win.It also ensures the staked amount and the deposited 
+                            amount is updated on each input
+                            -the second module is the slot. THE SLOT MODULE  has first the symbols of that will spin which are then 
+                              used by the random function to produce a set of conjoining random slots which are used to show if the 
+                              output is a win or a loss
+                            -the third module combines the user choices on the slots and then code randomness
+                            which are the combined to show the outcome
+                            -then is a module for controls by the user which helps continue quit or get outs of the 
+                            execution if you are ot of balance
+                            -after this the computer simalates some dummies to ensure we can get illussion or simulation of what is 
+                            happenning
+
+
+SUMMARY OF THE TASKS
+function to simulate the slots
+function determine winnings
+loop to ensure the customer keeps on playing untill he stops or losses all the loot
+ensure redudancy by the use points 
