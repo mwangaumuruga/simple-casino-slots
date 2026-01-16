@@ -1,7 +1,7 @@
 """trying to understand the basic working of a slot machine and the
 first concept that has sunk is that it uses a random number generator to produce some output
 then compares input with what the user had predicted to produce the result if the user has won or lost
-it the multiplies the win  with the bet amount to show the winnings of the user.
+it the multiplies the win  with the bet amount to show the winnings of the user.but this has alot cases and biaseness
 yesterday just learnt to avoid predictability the code can run the random generator function over 100 times 
 awarding each set some points to ensure its not so predictable and finally produce output"""
 """the code has three modules -first there is the   MONEY MANAGEMENT MODULE that ensures  the user balance is stakable,
