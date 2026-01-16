@@ -22,4 +22,4 @@ SUMMARY OF THE TASKS
 function to simulate the slots
 function determine winnings
 loop to ensure the customer keeps on playing untill he stops or losses all the loot
-ensure redudancy by the use points 
+ensure redudancy by the use points about to proceed wit this
